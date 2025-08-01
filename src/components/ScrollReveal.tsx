@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation, Variants } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useInView } from "framer-motion";
 
@@ -15,12 +15,12 @@ export default function ScrollReveal({ children }: { children: React.ReactNode }
     }
   }, [inView, controls]);
 
-  const variants = {
+  const variants: Variants = {
     hidden: { opacity: 0, y: 40 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: "easeOut" },
+      transition: { duration: 0.6, ease: [0.42, 0, 0.58, 1] }, // fixed ease type
     },
   };
 
@@ -35,6 +35,7 @@ export default function ScrollReveal({ children }: { children: React.ReactNode }
     </motion.div>
   );
 }
+
 
 
 
