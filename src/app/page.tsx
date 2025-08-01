@@ -87,7 +87,7 @@ export default function Home() {
                   name="Pranav Kumar"
                   role="Marketing Manager"
                   quote="ADmyBRAND AI Suite revolutionized our campaign strategy."
-                  imageUrl="https://randomuser.me/api/portraits/men/32.jpg"
+                  image="https://randomuser.me/api/portraits/men/32.jpg"
                 />
               </ScrollReveal>
               <ScrollReveal>
@@ -95,7 +95,7 @@ export default function Home() {
                   name="Akshita Singh"
                   role="Founder, StartupBoost"
                   quote="A game-changer for automating marketing workflows."
-                  imageUrl="https://randomuser.me/api/portraits/women/44.jpg"
+                  image="https://randomuser.me/api/portraits/women/44.jpg"
                 />
               </ScrollReveal>
               <ScrollReveal>
@@ -103,7 +103,7 @@ export default function Home() {
                   name="Anshuman Pandey"
                   role="Digital Strategist"
                   quote="The AI insights helped us double our engagement."
-                  imageUrl="https://randomuser.me/api/portraits/men/65.jpg"
+                  image="https://randomuser.me/api/portraits/men/65.jpg"
                 />
               </ScrollReveal>
             </div>
