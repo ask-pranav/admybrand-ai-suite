@@ -4,6 +4,7 @@ interface TestimonialCardProps {
   name: string;
   role: string;
   feedback: string;
+  quote: string;
   image: string;
 }
 
