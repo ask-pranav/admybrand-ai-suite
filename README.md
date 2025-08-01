@@ -1,10 +1,31 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# ADmyBRAND AI Suite 🚀
 
-First, run the development server:
+A modern, responsive SaaS landing page built with [Next.js 14](https://nextjs.org), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com). Designed with glassmorphism, smooth animations, and a modular component system — optimized for scalability, SEO, and Vercel deployment.
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ Next.js 14 App Router
+- 🔷 TypeScript
+- 💨 Tailwind CSS
+- 🎨 Glassmorphism UI
+- 🧱 Reusable Component System
+- 🎯 SEO & Social Meta Tags
+- ☁️ Vercel Hosting
+- 🖱️ Scroll Animations (Framer Motion + AOS)
+- 📦 Icon Library: Lucide React
+
+---
+
+## 🚀 Getting Started
+
+Install dependencies and run the dev server:
 
 ```bash
+npm install
 npm run dev
 # or
 yarn dev
@@ -12,7 +33,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
