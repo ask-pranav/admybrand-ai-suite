@@ -11,21 +11,21 @@ const testimonials = [
     name: 'Pranav Kumar',
     role: 'Marketing Manager, FinTech Co.',
     quote:
-      "ADmyBRAND AI Suite completely transformed our campaign strategy. The analytics dashboard alone is worth its weight in gold!",
+      'ADmyBRAND AI Suite completely transformed our campaign strategy. The analytics dashboard alone is worth its weight in gold!',
   },
   {
     image: '/logos/user2.jpg',
     name: 'Akshita Singh',
     role: 'Product Designer, SaaS Startup',
     quote:
-      "From automated reports to smart suggestions, this suite feels like having an extra team member!",
+      'From automated reports to smart suggestions, this suite feels like having an extra team member!',
   },
   {
     image: '/logos/user3.jpg',
     name: 'Anshuman Pandey',
     role: 'Brand Strategist, Retail Giant',
     quote:
-      "The ROI since using ADmyBRAND’s AI Suite has skyrocketed. Intuitive, powerful, and essential.",
+      'The ROI since using ADmyBRAND’s AI Suite has skyrocketed. Intuitive, powerful, and essential.',
   },
 ]
 
@@ -51,7 +51,7 @@ export function TestimonialSection() {
                 />
               </div>
               <p className="text-slate-600 dark:text-slate-300 mb-4 italic">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </p>
               <h3 className="font-semibold text-slate-900 dark:text-white">{testimonial.name}</h3>
               <p className="text-sm text-slate-500 dark:text-slate-400">{testimonial.role}</p>
