@@ -41,6 +41,51 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+📁 Project Structure
+bash
+Copy
+Edit
+/app          → App directory (App Router)
+  /components → Modular, reusable UI components
+  /styles     → Global Tailwind and custom styles
+  /public     → Static assets (images, logos, etc.)
+  /utils      → Helper functions and configs
+📦 Deployment
+Deployed seamlessly on Vercel. To deploy your own version:
+
+Push the project to GitHub
+
+Connect GitHub repo to Vercel
+
+Set environment variables (if any)
+
+Deploy!
+
+🔍 Features
+Responsive across all screen sizes
+
+Modular and reusable codebase
+
+Modern design trends with animations
+
+Clean code architecture with best practices
+
+📄 License
+This project is licensed under the MIT License.
+
+🙌 Acknowledgements
+Next.js
+
+Tailwind CSS
+
+Framer Motion
+
+Lucide Icons
+
+Vercel
+
+Built with ❤️ by Pranav Kumar
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
